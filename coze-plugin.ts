@@ -8,8 +8,8 @@
 
 export async function handler(params: any): Promise<any> {
   try {
-    // ⚠️ 替换为你的 Vercel API 地址
-    const API_ENDPOINT = 'https://your-project-name.vercel.app/api';
+    // 你的 Vercel API 地址
+    const API_ENDPOINT = 'https://douyin-api-seven.vercel.app/api';
 
     // 获取视频URL
     const videoUrl = params.input?.videoUrl || params.videoUrl || '';
